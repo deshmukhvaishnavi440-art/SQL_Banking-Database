@@ -110,6 +110,14 @@ select *from  Employee_012;
   (EmployeeID, EmployeeName, Department, Salary)
   values
      (8,'Raju Pande','Logistics',24000);
+     
+     insert into Employee_012
+     (EmployeeID, EmployeeName, Department, Salary,city)
+     values
+     (9,'Priya patil','HR',45000,'Pune'),
+     (10,'Amit Kumar','Finace',60000,'Delhi'),
+     (11,'Sneha Joshi','IT',55000,'Nagpur'),
+     (13,'Rohan Verma','Marketing',48000,'Mumbai');
 
 desc Employee_012;
 
